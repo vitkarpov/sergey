@@ -435,7 +435,7 @@ const compileFiles = async () => {
   try {
     const start = performance.now();
 
-    await clearOutputFolder();
+    // await clearOutputFolder();
     await prepareImports(IMPORTS);
 
     if (IMPORTS !== CONTENT) {
